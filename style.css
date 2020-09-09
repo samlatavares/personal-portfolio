@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+/* Scrollbar */
+::-webkit-scrollbar{
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background: #000921;
+}
+/* End of Scrollbar*/
+
+
+/* Generic */
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+body {
+  color: #3a312d;
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+i {
+  width: 20px;
+  padding-right: 5px;
+}
+/* End of Generic */
+
+
+/* Header */
+nav {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  background-color: #000921; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  padding-right: 20px;
+}
+
+nav a {
+  align-content: space-between;
+  padding: 10px 15px 10px 15px;
+}
+/* End of Header */
+
+
+/* Welcome Section */
+#welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  background-color:#fff6de;
+}
+/* End of Welcome Section */
+
+
+/* Work */
+.projects-section {
+  display: flex;
+  flex-direction: column;
+  background-color:#d8f0ff;
+  color: #000921;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.projects-section-header {
+  max-width: 640px;
+}
+
+.project-title {
+  font-size: 20px;
+  color:#a0c0ff;
+  align-self: center;
+  text-align: center;
+}
+
+.project-image {
+  height: 40vh;
+  width: 100%;
+  object-fit: cover;
+  margin: 10px 10px 10px 10x;
+}
+
+.project-grid {
+  display: flex;
+  flex-direction: row;
+}
+
+.project-card {
+  align-items: center;
+  text-align: center;
+  justify-items: center;
+  width: calc(100%/3);
+  margin: 10px;
+  border-radius: 5px;
+  background-color: #000921;
+}
+
+.project-card a {
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 2px;
+  background-color: #000921;
+  width: 100px;
+  padding: 10px 0px 10px 10px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.code {
+  color: #000921;
+  transition: #000921;
+}
+
+.project:hover .code {
+  color: white;
+}
+
+@media (max-width: 550px) {
+  .project-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+  }
+  
+  .project-card {
+    width: 80%
+  }
+  
+  .projects-section {
+    height: 220vh;
+  }
+  
+}
+/* End of Work */
+
+
+/* Contact */
+.contact-links > a {
+  margin-right:20px;
+}
+
+.contact-session{ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #a0c0ff;
+  color: white;
+  width: 100%;
+  height: 60vh;
+}
+
+.contact-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 80vh;
+}
+/* End of Contact */
+
+
+/* Footer */
+footer {
+  font-weight: 300;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #000921;
+  color: white;
+}
+/* End of Footer */
