@@ -1,10 +1,12 @@
 # personal-portfolio
-## Personal Portfolio developed for FreeCodeCamp Certification
+## What is this project?
+Personal Portfolio developed for FreeCodeCamp Certification
 
-To access the project's page:
-- https://samlatavares.github.io/personal-portfolio/
+## Working with this project
+The file "index" contains all page's code.
 
 To clone the project:
 - git clone https://github.com/samlatavares/personal-portfolio
 
-The file "index" contains all page's code.
+
+If you want to see this project's result you can access <a href="https://samlatavares.github.io/personal-portfolio/" target="_blank">here</a>.
