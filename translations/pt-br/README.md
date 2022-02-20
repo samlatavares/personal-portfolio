@@ -3,14 +3,14 @@
 	<a href="https://github.com/samlatavares/personal-portfolio/blob/master/README.md">English</a> | <span>Português</span> 
 </p>
 
-## What is this project?
-Personal Portfolio developed for FreeCodeCamp Certification
+## O que é esse projeto?
+Uma página com portfólio pessoal desenvolvida para a Certificação de Web Design Responsivo do FreeCodeCamp.
 
-## Working with this project
-The file "index" contains all page's code.
+## Trabalhando com este projeto
+O arquivo index.html contém todo o código do projeto. Basta abri-lo com um editor de texto.
 
-To clone the project:
+Para clonar o projeto:
 - git clone https://github.com/samlatavares/personal-portfolio
 
 
-If you want to see this project's result you can access <a href="https://samlatavares.github.io/personal-portfolio/" target="_blank">here</a>.
+Caso você queira ver o resultado do projeto, você pode acessá-lo <a href="https://samlatavares.github.io/personal-portfolio/" target="_blank">aqui</a>.
