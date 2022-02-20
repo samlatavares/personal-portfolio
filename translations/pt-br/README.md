@@ -1,4 +1,8 @@
 # personal-portfolio
+<p align="center">
+	<a href="https://github.com/samlatavares/personal-portfolio/blob/master/README.md">English</a> | <span>Português</span> 
+</p>
+
 ## What is this project?
 Personal Portfolio developed for FreeCodeCamp Certification
 
