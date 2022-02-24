@@ -3,7 +3,7 @@
 	<a href="https://github.com/samlatavares/personal-portfolio/blob/master/README.md">English</a> | <span>Português</span> 
 </p>
 
-<img id="image" src="images/main-page.jpg" alt="Screenshot of the page."></img>
+<img id="image" src="https://github.com/samlatavares/personal-portfolio/blob/master/images/main-page.jpg" alt="Screenshot of the page."></img>
 
 ## O que é esse projeto?
 Uma página com portfólio pessoal desenvolvida para a Certificação de Web Design Responsivo do FreeCodeCamp.
