@@ -3,6 +3,8 @@
 	<span>English</span> | <a href="https://github.com/samlatavares/personal-portfolio/blob/master/translations/pt-br/README.md">Português</a>
 </p>
 
+<img id="image" src="images/main-page.jpg" alt="Screenshot of the page."></img>
+
 ## What is this project?
 Personal Portfolio developed for FreeCodeCamp's Responsive Web Design Certification.
 
